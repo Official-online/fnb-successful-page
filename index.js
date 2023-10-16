@@ -1,5 +1,5 @@
 let subscribe = document.getElementById('check')
-let Subscribe = setTimeout(sub, 4000);
+let Subscribe = setTimeout(sub, 2500);
 function sub(){
     subscribe.style.animationName = 'check';
 
