@@ -73,7 +73,7 @@ body{
 @keyframes check{
     50%{
         visibility:visible;
-        margin-top: 3%;
+        margin-top: 1%;
     }
 }
 @keyframes suc{
