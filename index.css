@@ -6,7 +6,7 @@ body{
     background-position: center;
     background-attachment: fixed;
     background-size: 160%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 #div1{
     width: 100%;
@@ -44,6 +44,12 @@ body{
     text-align: center;
     font-family: 'Charm';
     color: rgb(13, 166, 177);
+    visibility: hidden;
+    position: relative;
+    animation-duration: 2s;
+    animation-name: suc;
+    /* visibility: hidden; */
+
 }
 #done{
     width:95%;
@@ -53,21 +59,26 @@ body{
 }
 #check{
     /* background-color: rgb(29, 44, 156); */
-    color: rgba(13, 166, 177, 0.9);
+    color: rgba(13, 166, 177, 1 );
     font-size: 2000%;
     padding:5% ;
     width: 100% ;
-    margin-top: 200%;
+    margin-top: 100%;
     visibility: hidden;
     position: relative;
     animation-duration: 2s;
-    /* animation-name: check; */
-
     animation-direction: normal;
 }
+
 @keyframes check{
     50%{
         visibility:visible;
-        margin-top: 9%;
+        margin-top: 3%;
+    }
+}
+@keyframes suc{
+    50%{
+        margin-top: 2%;
+        visibility: visible;
     }
 }
